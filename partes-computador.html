@@ -1,95 +1,177 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Informações sobre Computador</title>
 
     <style>
-        body {
-            font-family: Arial;
-            font-size: 10pt;
+      body {
+        font-family: Arial;
+        font-size: 10pt;
+      }
+      p {
+        text-align: justify;
+        text-indent: 20px;
+      }
+      article h1 {
+        font-size: 15pt;
+        color: #ffffff;
+        background-color: rgba(0, 0, 0, 0.3);
+        padding: 5px;
+        margin-top: 150px;
+      }
+      article h2 {
+        font-size: 13px;
+        color: #888888;
+        margin: 0px;
+      }
+      article {
+        margin-bottom: 20px;
+      }
+      img.img-dir {
+        display: block;
+        float: right;
+        margin-left: 5px;
+        max-width: 45%;
+        height: auto;
+      }
+      @media (max-width: 480px) {
+        img.img-dir {
+          float: none;
+          max-width: 100%;
+          margin: 0 0 10px 0;
         }
-        p {
-            text-align: justify;
-            text-indent: 20px;
-        }
-        article h1{
-            font-size: 15pt;
-            color: #ffffff;
-            background-color: rgba(0, 0, 0, .3);
-            padding: 5px;
-            margin: 0px;
-        }
-        article h2{
-            font-size: 13px;
-            color: #888888;
-            margin: 0px;
-        }
-        article {
-            margin-bottom: 20px;
-        }
-        img.img-dir{
-            display: block;
-            float: right;
-            margin-left: 5px;
-            max-width: 45%;
-            height: auto;
-        }
-        @media (max-width: 480px) {
-            img.img-dir {
-                float: none;
-                max-width: 100%;
-                margin: 0 0 10px 0;
-            }
-        }
+      }
     </style>
-</head>
+  </head>
 
-<body>
-<article><header><h2>Clique sobre as áreas destacadas em vermelho</h2></header>
-    <br><br><br>
-<img id="maoo" src="imagens/mao.png" alt="Mão apontando para esquerda"></article>
+  <body>
+    <article>
+      <header><h2>Clique sobre as áreas destacadas em vermelho</h2></header>
+      <br /><br /><br />
+      <img id="maoo" src="imagens/mao.png" alt="Mão apontando para esquerda" />
+    </article>
 
-<article id="tela"><header><h1>Monitor</h1>
-<h2>Por onde você visualiza</h2></header>
-<img src="imagens/det-tela.png" class="img-dir" alt="Monitor de computador">
-<p>Um monitor é um periférico de saída que exibe as informações visuais geradas por um computador, como textos, imagens e vídeos. Ele funciona como a principal tela de interface gráfica, permitindo que o usuário veja e interaja com os programas do sistema</p></article>
+    <article id="tela">
+      <header>
+        <h1>Monitor</h1>
+        <h2>Por onde você visualiza</h2>
+      </header>
+      <img
+        src="imagens/det-tela.png"
+        class="img-dir"
+        alt="Monitor de computador"
+      />
+      <p>
+        Um monitor é um periférico de saída que exibe as informações visuais
+        geradas por um computador, como textos, imagens e vídeos. Ele funciona
+        como a principal tela de interface gráfica, permitindo que o usuário
+        veja e interaja com os programas do sistema
+      </p>
+    </article>
 
-<article id="gabinete"><header><h1>Gabinete</h1>
-<h2>Guarda as peças sensíveis contra poeira, batidas e sujeira.</h2></header>
-<img src="imagens/det-gabinete.png" class="img-dir" alt="Gabinete de computador">
-<p>É a caixa de metal ou plástico que guarda e protege as peças de dentro do computador. Ele segura itens como a placa-mãe, a fonte de energia, o disco de armazenamento e a placa de vídeo. O gabinete também ajuda a manter as peças frias com ventoinhas.</p></article>
+    <article id="gabinete">
+      <header>
+        <h1>Gabinete</h1>
+        <h2>Guarda as peças sensíveis contra poeira, batidas e sujeira.</h2>
+      </header>
+      <img
+        src="imagens/det-gabinete.png"
+        class="img-dir"
+        alt="Gabinete de computador"
+      />
+      <p>
+        É a caixa de metal ou plástico que guarda e protege as peças de dentro
+        do computador. Ele segura itens como a placa-mãe, a fonte de energia, o
+        disco de armazenamento e a placa de vídeo. O gabinete também ajuda a
+        manter as peças frias com ventoinhas.
+      </p>
+    </article>
 
-<article id="alto_falante"><header><h1>Alto Falante</h1>
-<h2>Ouvindo os sons do Computador</h2></header>
-<img src="imagens/det_falante.webp" class="img-dir" alt="Alto Falante de Computador">
-<p>Os alto-falantes são usados para executar arquivos de áudio. Podem vir embutidos na unidade de sistema ou serem conectados com cabos. São eles que permitem ouvir música e efeitos de som no computador.</p>
-</article>
+    <article id="alto_falante">
+      <header>
+        <h1>Alto Falante</h1>
+        <h2>Ouvindo os sons do Computador</h2>
+      </header>
+      <img
+        src="imagens/det_falante.webp"
+        class="img-dir"
+        alt="Alto Falante de Computador"
+      />
+      <p>
+        Os alto-falantes são usados para executar arquivos de áudio. Podem vir
+        embutidos na unidade de sistema ou serem conectados com cabos. São eles
+        que permitem ouvir música e efeitos de som no computador.
+      </p>
+    </article>
 
-<article id="impressora"><header><h1>Impressora</h1>
-<h2>Impressões de arquivos</h2></header>
-<img src="imagens/det_impressora.jpg" class="img-dir" alt="impressora">
-<p>Uma impressora é um aparelho eletrônico que transforma arquivos e imagens digitais em cópias físicas no papel ou em outros materiais. Ela recebe os dados de um computador, celular ou da internet e usa tinta, toner ou calor para registrar o conteúdo.</p>
-</article>
+    <article id="impressora">
+      <header>
+        <h1>Impressora</h1>
+        <h2>Impressões de arquivos</h2>
+      </header>
+      <img src="imagens/det_impressora.jpg" class="img-dir" alt="impressora" />
+      <p>
+        Uma impressora é um aparelho eletrônico que transforma arquivos e
+        imagens digitais em cópias físicas no papel ou em outros materiais. Ela
+        recebe os dados de um computador, celular ou da internet e usa tinta,
+        toner ou calor para registrar o conteúdo.
+      </p>
+    </article>
 
-<article id="modem"><header><h1>Modem</h1>
-<h2>Equipamento que traz o sinal da rua para dentro do ambiente</h2></header>
-<img src="imagens/det-moden.jpg" class="img-dir" alt="modem de computador">
-<p>Um modem é um aparelho que conecta sua casa ou empresa à internet. O nome vem de modulador e demodulador. Ele converte o sinal que vem da operadora (por cabo, fibra ou telefone) em dados que o computador entende, e faz o inverso ao enviar informações.</p>
-</article>
+    <article id="modem">
+      <header>
+        <h1>Modem</h1>
+        <h2>Equipamento que traz o sinal da rua para dentro do ambiente</h2>
+      </header>
+      <img
+        src="imagens/det-moden.jpg"
+        class="img-dir"
+        alt="modem de computador"
+      />
+      <p>
+        Um modem é um aparelho que conecta sua casa ou empresa à internet. O
+        nome vem de modulador e demodulador. Ele converte o sinal que vem da
+        operadora (por cabo, fibra ou telefone) em dados que o computador
+        entende, e faz o inverso ao enviar informações.
+      </p>
+    </article>
 
-<article id="mouse"><header><h1>Mouse</h1>
-<h2>O que possibilita "arrastar e clicar" na tela</h2></header>
-<img src="imagens/det-mouse.png" class="img-dir" alt="mouse de computador">
-<p>O mouse é um periférico de entrada usado em computadores para controlar o movimento do cursor (a seta) na tela. Ao movê-lo sobre uma mesa e apertar seus botões, você pode selecionar itens, abrir programas e navegar por páginas de forma rápida e fácil.</p>
-</article>
+    <article id="mouse">
+      <header>
+        <h1>Mouse</h1>
+        <h2>O que possibilita "arrastar e clicar" na tela</h2>
+      </header>
+      <img
+        src="imagens/det-mouse.png"
+        class="img-dir"
+        alt="mouse de computador"
+      />
+      <p>
+        O mouse é um periférico de entrada usado em computadores para controlar
+        o movimento do cursor (a seta) na tela. Ao movê-lo sobre uma mesa e
+        apertar seus botões, você pode selecionar itens, abrir programas e
+        navegar por páginas de forma rápida e fácil.
+      </p>
+    </article>
 
-<article id="teclado"><header><h1>Teclado</h1>
-<h2>Digitar os simbolos do teclado</h2></header>
-<img src="imagens/det-teclado.png" class="img-dir" alt="teclado de computador">
-<p>O teclado é um periférico de entrada usado para digitar textos, números, símbolos e enviar comandos para o sistema. Inspirado nas antigas máquinas de escrever, ele transforma o toque físico das teclas em sinais elétricos que o computador lê e executa na tela.</p>
-</article>
-
-</body>
+    <article id="teclado">
+      <header>
+        <h1>Teclado</h1>
+        <h2>Digitar os simbolos do teclado</h2>
+      </header>
+      <img
+        src="imagens/det-teclado.png"
+        class="img-dir"
+        alt="teclado de computador"
+      />
+      <p>
+        O teclado é um periférico de entrada usado para digitar textos, números,
+        símbolos e enviar comandos para o sistema. Inspirado nas antigas
+        máquinas de escrever, ele transforma o toque físico das teclas em sinais
+        elétricos que o computador lê e executa na tela.
+      </p>
+    </article>
+  </body>
 </html>
