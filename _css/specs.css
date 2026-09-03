@@ -1,0 +1,31 @@
+section#conteudo {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+section#conteudo img {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe#frame-spec {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: 280px;
+    margin: 10px auto 0 auto;
+    border: none;
+    overflow: hidden;
+}
+
+@media (max-width: 480px) {
+    iframe#frame-spec {
+        height: 340px;
+    }
+}
+
+iframe#frame-spec::-webkit-scrollbar{
+    display: none;
+}
