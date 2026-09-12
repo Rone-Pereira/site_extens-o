@@ -276,6 +276,7 @@ video#filme1 {
   header#cabecalho {
     height: auto;
     min-height: 150px;
+    padding-top: 60px;
     padding-bottom: 60px;
     background-position: 0px 15px;
   }
